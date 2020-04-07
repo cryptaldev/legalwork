@@ -1,0 +1,39 @@
+@import '../styles/variables';
+
+.notification {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: $spacer / 4 $spacer;
+    text-align: center;
+    background: $yellow;
+    font-weight: $font-weight-bold;
+    color: darken($yellow, 50%);
+}
+
+.notificationSuccess {
+    composes: notification;
+    background: $green;
+    color: darken($green, 50%);
+}
+
+.close {
+    background: none;
+    border: none;
+    box-shadow: none;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-h2;
+    color: $brand-grey;
+    padding: 0;
+    line-height: 1;
+    margin: 0;
+    vertical-align: middle;
+    float: right;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+        opacity: .7;
+    }
+}

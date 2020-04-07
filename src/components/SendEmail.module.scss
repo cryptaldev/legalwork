@@ -1,0 +1,13 @@
+@import '../styles/variables';
+
+.emailLink {
+    margin-top: $spacer * 2;
+    margin-left: .2rem;
+    text-align: center;
+
+    a {
+        color: $brand-grey-light;
+        font-size: $font-size-small;
+        font-weight: $font-weight-bold;
+    }
+}

@@ -1,0 +1,80 @@
+@import '../styles/variables';
+
+.container {
+    width: 100%;
+    padding: 2rem;
+    border: 1px solid #f4f4f4;
+    box-shadow: 0 18px 18px 0 rgba(0, 0, 0, 0.05);
+    margin-bottom: 5rem;
+}
+
+.textContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+.titleContainer {
+    padding-top: 10px;
+}
+.title {
+    font-weight: 400;
+    font-family: $font-family-title;
+    font-size: 16px;
+    color: #07333a;
+}
+.description {
+    padding-top: 2rem;
+    font-weight: 300;
+    font-size: 15px;
+    color: $brand-grey;
+    text-align: left;
+}
+.poster {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: $brand-grey;
+}
+.metacontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.metadata {
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 500;
+    float: right;
+    padding-right: 20px;
+}
+.date {
+    color:$brand-pink;
+}
+.offerCount {
+    color: $brand-grey;
+}
+.offersContainer {
+    width: parent;
+    padding: 2rem;
+    border: 1px solid $brand-purple;
+}
+.offerContainer {
+    margin-top: 5rem;
+}
+hr {
+    margin: 0;
+    padding: 5px
+}
+br {
+    margin: 0px;
+}
+a {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+a:hover {
+    color: #7b1173
+}

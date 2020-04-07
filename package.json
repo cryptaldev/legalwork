@@ -1,0 +1,56 @@
+{
+  "name": "legalwork",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A decentralised legal job marketplace (like upwork) using Ocean Protocol",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "firefox": "npm run build && rm -rf build/manifest.json && cp build/firefox.json build/manifest.json",
+    "chrome": "npm run build && rm -rf build/manifest.json && cp build/chrome.json build/manifest.json",
+    "brave": "npm run build && rm -rf build/manifest.json && cp build/chrome.json build/manifest.json",
+    "test": "npm run lint && react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "prettier ./src/**/*.{js,jsx,json} --write",
+    "lint": "eslint ./src/**/*.js",
+    "prod": "npm run build && serve -s build/"
+  },
+  "dependencies": {
+    "@oceanprotocol/art": "^2.2.0",
+    "@oceanprotocol/typographies": "^0.1.0",
+    "classnames": "^2.2.6",
+    "ethereum-address": "0.0.4",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.12.0",
+    "react-dotdotdot": "^1.3.1",
+    "react-router-dom": "^5.1.2"
+  },
+  "devDependencies": {
+    "add": "^2.0.6",
+    "eslint": "^5.16.0",
+    "eslint-config-oceanprotocol": "^1.3.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.13.0",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.17.1",
+    "react-scripts": "3.0.1",
+    "typescript": "^3.4.5",
+    "web-ext": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "dkdev14",
+  "license": "Apache 2.0",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

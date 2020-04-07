@@ -1,0 +1,23 @@
+{
+    "parser": "babel-eslint",
+    "extends": [
+        "oceanprotocol",
+        "oceanprotocol/react",
+        "plugin:prettier/recommended",
+        "prettier/react",
+        "prettier/standard"
+    ],
+    "plugins": ["prettier"],
+    "rules": {
+        "prettier/prettier": "error"
+    },
+    "settings": {
+        "react": {
+            "version": "16"
+        }
+    },
+    "env": {
+        "jest": true,
+        "browser": true
+    }
+}

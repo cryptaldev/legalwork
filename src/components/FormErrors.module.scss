@@ -1,0 +1,15 @@
+@import '../styles/variables';
+
+.formErrors {
+    p {
+        margin: 0;
+        padding: $spacer / 2;
+        margin-top: $spacer;
+        font-size: $font-size-small;
+        background: $red;
+        color: $brand-white;
+        font-weight: $font-weight-bold;
+        text-align: center;
+        border-radius: $border-radius;
+    }
+}
