@@ -45,8 +45,8 @@
     "type": "git",
     "url": ""
   },
-  "author": "dkdev14",
-  "license": "Apache 2.0",
+  "author": "cryptaldev",
+  "license": "MIT",
   "browserslist": [
     ">0.2%",
     "not dead",
